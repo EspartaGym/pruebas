@@ -7,7 +7,10 @@ class Direccion:
 
 
 class Persona:
-
+    def __init__(self, nombre, apellidos, fecha_nacimiento):
+        self.nombre = nombre
+        self.apellidos = apellidos
+        self.fecha_nacimiento = fecha_nacimiento
 class Telefono:
     
 class Contacto:
